@@ -30,7 +30,7 @@ namespace fix {
         }
 
         const std::string &msg_type = msg_type_it->second;
-        std::unordered_map<std::string, std::vector<int>> required_by_type = {
+            static const std::unordered_map<std::string, std::vector<int>> required_by_type = {
             {"D", {11, 55, 54, 38, 40}},
             {"A", {98, 108}},
             {"8", {37, 17, 39, 150, 55, 54, 38}}
